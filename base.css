@@ -27,6 +27,28 @@ div#pagebody {
   background-repeat: repeat-y;      /*背景画像を縦方向に繰り返す*/
 }
 
+img {
+  border: 0;      /*imgのボーダを0にする*/
+}
+
+/* ====================
+  ヘッダー
+====================== */
+
+div#header {
+  height: 80px;      /*ヘッダ部分の高さ*/
+}
+
+div#header h1 {
+  padding: 10px 0px 5px 20px;      /*見出しのパディング調整*/
+  font-size: 18px;      /*フォントのサイズを指定*/
+  font-family: Arial, Helvetica, sans-serif;      /*フォントの指定*/
+}
+
+div#header h1 a {
+  text-decoration: none;      /*リンク下部の線をなくす*/
+}
+
 /* ====================
   メインメニュー
 ====================== */
