@@ -32,3 +32,7 @@ ul#menu {
   text-align: center;      /*テキストをセンター揃え*/
   text-decoration: none;      /*リンク部分を下線なしに*/
 }
+
+#menu li a:hover {
+  background-color: #000066;      /*リンクにマウスオーバーで背景色変更*/
+}
