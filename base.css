@@ -82,3 +82,13 @@ ul#menu {
   background-color: #000066;      /*リンクにマウスオーバーで背景色変更*/
   background-image: url(images/bg_menu2.png);      /*リンクにマウスが乗ったら背景画像を変更*/
 }
+
+/* ====================
+  ヘッダー画像
+====================== */
+
+#img_index {
+  width: 960px;
+  height: 360px;
+  margin: 5px 20px;
+}
