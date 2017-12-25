@@ -28,4 +28,7 @@ ul#menu {
   display: block;      /*リンク部分をブロック表示にする*/
   width: 240px;      /*幅指定*/
   height: 35px;      /*高さ指定*/
+  padding: 15px 0px 0px 0px;      /*上のパディング*/
+  text-align: center;      /*テキストをセンター揃え*/
+  text-decoration: none;      /*リンク部分を下線なしに*/
 }
