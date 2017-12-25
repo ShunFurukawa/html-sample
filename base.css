@@ -31,8 +31,11 @@ ul#menu {
   padding: 15px 0px 0px 0px;      /*上のパディング*/
   text-align: center;      /*テキストをセンター揃え*/
   text-decoration: none;      /*リンク部分を下線なしに*/
+  background-image: url(images/bg_menu1.png);      /*背景画像を指定*/
+  background-repeat: no-repeat;      /*背景画像を繰り返さない*/
 }
 
 #menu li a:hover {
   background-color: #000066;      /*リンクにマウスオーバーで背景色変更*/
+  background-image: url(images/bg_menu2.png);      /*リンクにマウスが乗ったら背景画像を変更*/
 }
