@@ -92,3 +92,10 @@ ul#menu {
   height: 360px;
   margin: 5px 20px;
 }
+
+.infoimg_index {
+  width: 200px;
+  height: 150px;      /*画像の表示サイズを指定*/
+  margin: 0px 0px 20px 20px;      /*マージン*/
+  float: right;      /*画像を右寄せにする*/
+}
