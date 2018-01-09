@@ -146,6 +146,15 @@ div#info {
   float: left;      /*左寄せにする*/
 }
 
+h3 {
+  font-size: 14px;      /*文字サイズ指定*/
+  width: 660px;      /*横幅指定*/
+  padding: 10px 0px 10px 20px;      /*パディング*/
+  background-color: #003399;      /*背景色*/
+  color: #ffffff;      /*文字色*/
+  border-radius: 3px;      /*角丸にする*/
+}
+
 .infoimg_index {
   width: 200px;
   height: 150px;      /*画像の表示サイズを指定*/
