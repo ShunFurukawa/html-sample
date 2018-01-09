@@ -97,6 +97,17 @@ ul#menu {
   サブメニュー( 左カラム )
 ====================== */
 
+h2 {
+  width: 160px;      /*幅指定*/
+  height: 43px;      /*高さ指定*/
+  padding: 17px 0px 0px 100px;      /*パディング指定*/
+  font-size: 16px;      /*フォントサイズ指定*/
+  background-image: url(images/bg_h2.png);      /*背景画像指定*/
+  background-repeat: no-repeat;      /*背景画像を繰り返さない*/
+  background-color: #000033;      /*背景色指定*/
+  color: #ffffff;      /*文字色指定*/
+}
+
 div#submenu {
   width: 260px;      /*幅の指定*/
   margin: 10px 10px 10px 25px;      /*位置の調整*/
