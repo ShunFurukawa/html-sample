@@ -99,11 +99,27 @@ ul#menu {
 
 div#submenu {
   width: 260px;      /*幅の指定*/
+  margin: 10px 10px 10px 25px;      /*位置の調整*/
   float: left;      /*左寄せにする*/
 }
 
+div#submenu ul li {
+  list-style-type: none;      /*リストマーカーなしにする*/
+}
+
+div#submenu ul li a {
+  display: block;      /*リンク部分をブロック表示にする*/
+  height: 45px;      /*高さを指定*/
+  padding: 15px 0px 0px 30px;      /*パディングの指定*/
+  text-decoration: none;      /*リンク下部の下線をなくす*/
+  border-bottom: 1px dotted gray;      /*リンク領域の下部にボーダをつける*/
+  background-image: url(images/bg_submenu.png);      /*リンク領域に背景画像をつける*/
+  background-repeat: no-repeat;      /*背景画像を繰り返さない*/
+  color: #333333;      /*文字色指定*/
+}
+
 /* ====================
-  サブメニュー( 左カラム )
+  インフォメーション ( 右カラム )
 ====================== */
 
 div#info {
