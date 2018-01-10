@@ -192,4 +192,8 @@ hr {
 
 div#footer {
   clear: both;      /*回り込みを解除*/
+  height: 40px;      /*高さの指定*/
+  padding: 10px 0px 0px 0px;      /*パディングの指定*/
+  font-size: x-small;      /*フォントのサイズを小さくする*/
+  text-align: center;      /*センタリング*/
 }
