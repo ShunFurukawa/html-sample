@@ -194,6 +194,12 @@ h3 {
   float: left;      /*画像を左寄せにする*/
 }
 
+.infoimg_tel {
+  display: block;      /*ブロック表示にする*/
+  width: 400px;
+  height: 80px;
+}
+
 hr {
   clear: both;      /*フロート配置をクリアする*/
 }
