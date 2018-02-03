@@ -11,3 +11,8 @@
   border-radius: 3px;
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1) inset;
 }
+
+#form1 input:focus, #form1 textarea:focus {
+  box-shadow: 0px 0px 5px 2px #ccccee;
+  outline-style: none;
+}
