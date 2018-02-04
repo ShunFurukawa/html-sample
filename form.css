@@ -27,3 +27,7 @@
   text-align: center;
   text-indent: 0;
 }
+
+input[type="text"], input[type="email"] {
+  width: 70%;
+}
