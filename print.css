@@ -9,49 +9,22 @@ body {
   color: #000000;     /*文字色*/
 }
 
-div#pagebody {
+div#pagebody, div#info, p, hr {
   width: 100%;
 }
 
 /* ==================
-  メインメニュー
+  メインメニュー, ヘッダー画像,
+  サブメニュー, フッター
 ===================== */
 
-ul#menu {
-  display: none;
-}
-
-/* ==================
-  ヘッダー画像
-===================== */
-
-#img_index {
-  display: none;
-}
-
-#img_subpage {
-  display: none;
-}
-
-/* ==================
-  サブメニュー(左カラム)
-===================== */
-
-div#submenu {
+ul#menu, #img_index, #img_subpage, div#submenu, div#footer {
   display: none;
 }
 
 /* ==================
   インフォメーション(右カラム)
 ===================== */
-
-div#info {
-  width: 100%;
-}
-
-p {
-  width: 100%;
-}
 
 .infoimg_index {
   width: 200px;
@@ -65,16 +38,4 @@ p {
   height: 300px;
   margin: 0px 20px 20px 0px;
   float: left;
-}
-
-hr {
-  width: 100%;
-}
-
-/* ==================
-  フッター
-===================== */
-
-div#footer {
-  display: none;
 }
